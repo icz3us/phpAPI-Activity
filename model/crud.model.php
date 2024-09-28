@@ -1,7 +1,7 @@
 <?php
 class CrudModel {
     private $conn;
-
+    
     public function __construct() {
         $this->conn = $this->dbConnection();
     }
@@ -52,4 +52,4 @@ class CrudModel {
         return $stmt->execute();
     }
 }
-?>
+

@@ -54,4 +54,4 @@ switch ($action) {
         echo json_encode(['status' => 'Action not found']);
         break;
 }
-?>
+

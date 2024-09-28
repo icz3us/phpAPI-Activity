@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost'; // Your database host
-$dbname = 'users_db'; // Your database name
-$username = 'root'; // Your database username
-$password = ''; // Your database password
+$host = 'localhost'; 
+$dbname = 'users_db'; 
+$username = 'root'; 
+$password = ''; 
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
@@ -11,4 +11,4 @@ try {
     echo "Connection failed: " . $e->getMessage();
     exit();
 }
-?>
+
