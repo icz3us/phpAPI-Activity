@@ -1,7 +1,5 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /PHPapi-Activity/
-
-    # Redirect all requests to main.php
     RewriteRule ^(.*)$ main.php?action=$1 [L,QSA]
 </IfModule>
